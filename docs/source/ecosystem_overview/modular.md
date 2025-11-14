@@ -41,5 +41,5 @@ The following sections provide a technical overview of the JAX ecosystem, its ke
 [^1]: The core components are included in the [`jax-ai-stack` Python package](https://docs.jaxstack.ai/en/latest/install.html).
 
 
-![](../_static/images/JAX_ecosystem.svg)
+![](../_static/images/JAX_ecosystem.png)
 **Figure 1: The JAX AI Stack and Ecosystem Components**

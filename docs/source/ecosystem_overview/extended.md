@@ -160,7 +160,7 @@ Post-training is the critical step in unlocking the true power of LLMs. The Rein
 
 #### Design
 
-![](../_static/images/Tunix_diagram.svg)
+![](../_static/images/Tunix_diagram.png)
 
 From a framework perspective, [Tunix](https://tunix.readthedocs.io/en/latest/) enables a state-of-the-art setup that **clearly separates RL algorithms from the infrastructure**. It offers a lightweight, client-like API that hides the complexity of the RL infrastructure, allowing users to develop new algorithms easily. [Tunix](https://tunix.readthedocs.io/en/latest/) provides out-of-the-box solutions for popular algorithms, including PPO, DPO, and others.
 
@@ -211,7 +211,7 @@ Historically, JAX models often relied on a circuitous path to production, such a
 
 This solution consists of two core components, as illustrated in the diagram below.
 
-![](../_static/images/serving_orbax_nse.svg)
+![](../_static/images/serving_orbax_nse.png)
 
 
 1. **Orbax Serialization Library:** Provides user-friendly APIs for serializing JAX models into a new, robust Orbax serialization format. This format is optimized for production deployment. Its core includes: (a) directly representing JAX model computations using **StableHLO**, allowing the computation graph to be represented natively, and (b) leveraging **TensorStore** for storing weights, enabling fast checkpoint loading for serving.
